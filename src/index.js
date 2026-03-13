@@ -1,4 +1,7 @@
 import "./styles.css";
-import initial from initial.js
+import home from "./initial.js";
+import menu from "./menu.js";
 
-console.log("hellooo")
+const header = document.getElementById("#tabs")
+
+header.addEventListener()

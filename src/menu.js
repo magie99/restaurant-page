@@ -3,9 +3,8 @@ export default change = function() {
     if (content) {
         content.innerHTML = `
             <div>
-                <h1>Welcome to Maxi's fine dining establishment</h1>
-                <p>Best quality since 1999</p>
+                <h1>Hier könnte Ihr Menü stehen</h1>
             </div>
         `;
     }
-}
+};
