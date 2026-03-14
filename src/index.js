@@ -1,7 +1,14 @@
 import "./styles.css";
-import home from "./initial.js";
-import menu from "./menu.js";
+import loadHome from "./home.js";
+import loadMenu from "./menu.js";
+import loadAbout from "./about.js";
 
-const header = document.getElementById("#tabs")
+const tabs = document.querySelector("#tabs")
 
-header.addEventListener()
+tabs.addEventListener('click', (e) => {
+    const targetId = e.target.id; // Die ID des geklickten Elements prüfen
+
+    if (targetId === "home") loadHome();
+    if (targetId === "menu") loadMenu();
+    if (targetId === "about") loadAbout();
+});

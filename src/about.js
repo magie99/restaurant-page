@@ -1,10 +1,9 @@
-export default change = function() {
+export default function change() {
     const content = document.querySelector("#content");
     if (content) {
         content.innerHTML = `
             <div>
-                <h1>Welcome to Maxi's fine dining establishment</h1>
-                <p>Best quality since 1999</p>
+                <h1>About</h1>
             </div>
         `;
     }
