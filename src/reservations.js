@@ -3,7 +3,7 @@ export default function change() {
     if (content) {
         content.innerHTML = `
             <div>
-                <h1>About</h1>
+                <h1>sorry, we're booked out!</h1>
             </div>
         `;
     }
